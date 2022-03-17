@@ -1,8 +1,8 @@
 package org.fife.ui.hex.event;
 
-import java.util.EventObject;
-
 import org.fife.ui.hex.swing.HexEditor;
+
+import java.util.EventObject;
 
 
 /**
@@ -35,7 +35,6 @@ public class HexEditorEvent extends EventObject {
 	 * Creates a new event object.
 	 *
 	 * @param editor The source of this event.
-	 * @param type The type of this event.
 	 */
 	public HexEditorEvent(HexEditor editor, int offs, int added, int removed) {
 		super(editor);
