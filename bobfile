@@ -1,0 +1,6 @@
+include https://raw.githubusercontent.com/codemonstur/bobfiles/master/foss-lib-github-maven
+
+version: 0.1
+packaging: jar
+enablePreview: false
+release: 8
