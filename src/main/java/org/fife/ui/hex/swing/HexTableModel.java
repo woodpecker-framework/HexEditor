@@ -77,7 +77,7 @@ public class HexTableModel extends AbstractTableModel {
 
 		columnNames = new String[17];
 		for (int i=0; i<16; i++) {
-			columnNames[i] = "+" + Integer.toHexString(i).toUpperCase();
+			columnNames[i] = "0" + Integer.toHexString(i).toUpperCase();
 		}
 		columnNames[16] = msg.getString("AsciiDump");
 

@@ -150,7 +150,17 @@ class HexEditorRowHeader extends JList implements TableModelListener {
 		private int size;
 
 		public Object getElementAt(int index) {
-			return "0x" + Integer.toHexString(index*16);
+			String strHex = Integer.toHexString(index*16);
+			if(strHex.length() == 1){
+				strHex = "0x000" + strHex;
+			}else if(strHex.length() == 2){
+				strHex = "0x00" + strHex;
+			}else if(strHex.length() == 3){
+				strHex = "0x0" + strHex;
+			}else{
+				strHex = "0x" + strHex;
+			}
+			return strHex;
 		}
 
 		public int getSize() {

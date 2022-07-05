@@ -17,6 +17,24 @@
         </license>
     </licenses>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.lafouche/hexlib -->
+        <dependency>
+            <groupId>com.lafouche</groupId>
+            <artifactId>hexlib</artifactId>
+            <version>0.50</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.fife.ui.hex/hexeditor -->
+        <dependency>
+            <groupId>org.fife.ui.hex</groupId>
+            <artifactId>hexeditor</artifactId>
+            <version>1.0.2011-07-04</version>
+        </dependency>
+
+    </dependencies>
+
     <scm>
         <connection>scm:git:https://github.com/codemonstur/hexeditor.git</connection>
         <developerConnection>scm:git:https://github.com/codemonstur/hexeditor.git</developerConnection>
